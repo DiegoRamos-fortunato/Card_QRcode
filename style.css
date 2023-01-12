@@ -1,0 +1,51 @@
+:root{
+    --color-background : #D4E1EE;
+    --color-title : #182736;
+    --color-text : #A2A4B1;
+    --color-card : #FFFEFE;
+    --font-main : 'Outfit'
+}
+
+body{
+    background-color: var(--color-background);
+    display: flex;
+    align-items: flex-end;
+   
+}
+
+.container_leitorDeQr{
+    background-color:var(--color-card) ;
+    width: 20%;
+    margin: 126px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.037) ;
+    
+}
+
+.leitorDeQr__imagem{
+   margin: auto;
+   display: block;
+   width:90% ;
+   margin-top: 20px;
+   border-radius: 10px;
+
+   
+}
+
+.leitorDeQr__titulo{
+    font-size: 21px;
+    padding: 15px;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--color-title);
+}
+
+.leitorDeQr__texto{
+    font-family: var(--fonte-principal);
+    padding: 12px ;
+    color: var(--color-text);
+    text-align: center;
+    font-size: 15px;
+    
+}
+
